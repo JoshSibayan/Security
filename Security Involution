@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+	public static void main(String[] args) {
+        
+		Scanner input = new Scanner(System.in);
+		int length = input.nextInt();
+		int[] f = new int[length + 1];
+		for(int i = 1; i < length + 1; i++) {
+			f[i] = input.nextInt();
+		}
+
+    // Assume function is involution until conditional check proves otherwise
+		boolean involution = true;
+		for(int i = 1; i < length + 1; i++) {
+			if (f[f[i]] != i) {
+				involution = false;
+				break;
+			}
+		}
+        
+		System.out.println(involution ? "YES" : "NO");
+
+		input.close();
+		
+	}
+	
+}
