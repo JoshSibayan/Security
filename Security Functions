@@ -1,0 +1,7 @@
+    // Not the most challenging first problem...
+    
+    static int function(int x) {
+
+        return x%11;
+
+    }
