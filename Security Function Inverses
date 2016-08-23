@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        int length = input.nextInt();
+        int[] functions = new int[length + 1];
+        
+        // Create array that maps function 2 containing user input to function 1 
+        for(int i = 1; i < length + 1; i++) {
+            functions[input.nextInt()] = i;
+        }
+        
+        for(int i = 1; i < length + 1; i++) {
+            System.out.println(functions[i]);
+        }
+        
+    }
+    
+}
