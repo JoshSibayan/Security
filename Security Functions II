@@ -1,0 +1,8 @@
+    // Not the most interesting second problem either
+    // Oh well, free points
+    
+    static int function(int x) {
+
+        return (int)Math.pow(x, 2);
+
+    }
