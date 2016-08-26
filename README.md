@@ -1,3 +1,2 @@
 # Security
-Solutions to HackerRank's Security Challenges\n
-Subdomains: Functions, Terminology and Concepts, Cryptography
+Solutions to HackerRank's security challenges, subdomains include functions, terminology and concepts, cryptography
