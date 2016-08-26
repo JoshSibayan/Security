@@ -1,2 +1,3 @@
-# SecurityFunctions
-Solutions to HackerRank's Security Function Challenges
+# Security
+Solutions to HackerRank's Security Challenges
+Subdomains: Functions, Terminology and Concepts, Cryptography
