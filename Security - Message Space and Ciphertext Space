@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        String str = input.next();
+        
+        // Parse given string into char array to convert into int array
+        char[] ch = str.toCharArray();
+        int[] message = new int[ch.length];
+        
+        // Use mod arithmetic to shift array elements
+        for(int i = 0; i < ch.length; i++) {
+            message[i] = Character.getNumericValue(ch[i]);
+            System.out.print((message[i] + 1) % 10);
+        }
+        
+        input.close();
+
+    }
+    
+}
